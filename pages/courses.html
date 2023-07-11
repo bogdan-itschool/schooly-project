@@ -11,12 +11,165 @@
       crossorigin="anonymous"
     />
 
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="../styles/main.css" />
     <link rel="stylesheet" href="../styles/courses.css" />
 
     <title>Courses</title>
   </head>
   <body>
-    <p class="display-1">Courses page</p>
+    <nav>
+      <div class="custom-container">
+        <a href="../index.html" class="logo-link">
+          <img src="../assets/itschool-logo.png" alt="itschool logo" />
+        </a>
+        <div class="menu-icon-container">
+          <!-- Iconita de meniu + checkbox-ul sunt pentru mobile. -->
+          <span class="material-icons menu-icon"> menu </span>
+          <input type="checkbox" />
+          <ul>
+            <li>
+              <a href="courses.html"> Cursuri Online </a>
+            </li>
+            <li class="about-us">
+              <a href="about.html">
+                Despre Noi
+                <!-- Iconita luata de pe Material Icons. -->
+                <span class="material-icons arrow-down-icon">
+                  arrow_drop_down
+                </span>
+              </a>
+              <!-- Submeniul afisat la hover pe "Despre noi" -->
+              <div class="submenu">
+                <a href="../index.html">IT School</a>
+                <a href="about.html">Despre Noi</a>
+              </div>
+            </li>
+            <li>
+              <a href="contact.html"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="courses-hero" class="mb-5">
+        <div
+          class="container-lg d-flex justify-content-center align-items-center"
+        >
+          <h1 class="display-1 text-light">Online and live courses</h1>
+        </div>
+      </section>
+
+      <section id="courses" class="my-5">
+        <div class="container-lg">
+          <div class="text-center">
+            <h4 class="display-4">Training programs</h4>
+            <div class="divider"></div>
+            <p class="lead text-muted">
+              Choose the right program that suits your needs
+            </p>
+          </div>
+
+          <div
+            class="row my-5 align-items-center justify-content-center justify-content-md-start g-3"
+          >
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card border-0 py-3 shadow">
+                <img class="card-top" src="../assets/code.svg" alt="" />
+                <div class="card-body">
+                  <h3 class="card-title">Intro IT</h3>
+                  <small class="card-subtitle my-5 d-block">
+                    Certificare ministerul Educatiei Nationale
+                  </small>
+                  <h6 class="mb-5">Sesiune Iunie - 29.06.2023</h6>
+                  <div class="text-end">
+                    <button
+                      type="button"
+                      class="btn btn-outline-success text-right rounded-pill px-5"
+                    >
+                      Detalii
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card border-0 py-3 shadow">
+                <img class="card-top" src="../assets/web.svg" alt="" />
+
+                <div class="card-body">
+                  <h3 class="card-title">Web Development</h3>
+                  <small class="card-subtitle my-5 d-block">
+                    Certificare ministerul Educatiei Nationale
+                  </small>
+                  <h6 class="mb-5">Sesiune Iunie - 29.06.2023</h6>
+                  <div class="text-end">
+                    <button
+                      type="button"
+                      class="btn btn-outline-success text-right rounded-pill px-5"
+                    >
+                      Detalii
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card border-0 py-3 shadow">
+                <img class="card-top" src="../assets/java.svg" alt="" />
+
+                <div class="card-body">
+                  <h3 class="card-title">Curs Java</h3>
+                  <small class="card-subtitle my-5 d-block">
+                    Certificare ministerul Educatiei Nationale
+                  </small>
+                  <h6 class="mb-5">Sesiune Iunie - 29.06.2023</h6>
+                  <div class="text-end">
+                    <button
+                      type="button"
+                      class="btn btn-outline-success text-right rounded-pill px-5"
+                    >
+                      Detalii
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card border-0 py-3 shadow">
+                <img class="card-top" src="../assets/python.svg" alt="" />
+                <div class="card-body">
+                  <h3 class="card-title">Curs Python</h3>
+                  <small class="card-subtitle my-5 d-block">
+                    Certificare ministerul Educatiei Nationale
+                  </small>
+                  <h6 class="mb-5">Sesiune Iunie - 29.06.2023</h6>
+                  <div class="text-end">
+                    <button
+                      type="button"
+                      class="btn btn-outline-success text-right rounded-pill px-5"
+                    >
+                      Detalii
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="custom-container">
+        <p>Schooly © 2021. Toate drepturile rezervate.</p>
+      </div>
+    </footer>
   </body>
 </html>

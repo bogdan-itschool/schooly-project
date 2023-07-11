@@ -1,1 +1,14 @@
 /* css for courses page */
+#courses-hero {
+  background-color: var(--bg-primary);
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-top {
+  width: 120px;
+  margin-bottom: 1rem;
+  margin-top: -16px;
+}
